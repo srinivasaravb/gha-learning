@@ -14,7 +14,7 @@ jobs:
             ls -ltr
             mkdir srini
             cd srini
-            echo "$pwd"
+            pwd
             touch one
             touch two
             touch three
