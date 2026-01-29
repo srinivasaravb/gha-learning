@@ -4,6 +4,21 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: "first-job"
+      - name: "first-step"
         run: echo "First Step"
+      - name: "second-step"
+        run: |
+            echo "Second Step First Line"
+            echo "Second Step Second Line"
+            echo "Third Step Third Line"
+            ls -ltr
+            mkdir srini
+            chmod -r 777 srini/
+            cd srini
+            pwd
+            touch one
+            touch two
+            touch three
+            ls -lart
+            
   
