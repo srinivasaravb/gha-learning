@@ -13,7 +13,6 @@ jobs:
             echo "Third Step Third Line"
             ls -ltr
             mkdir srini
-            chmod -r 777 srini/
             cd srini
             pwd
             touch one
